@@ -1,4 +1,6 @@
-public class Student {
+import java.io.*;
+
+public class Student implements Serializable{
     String name;
     int id;
 
